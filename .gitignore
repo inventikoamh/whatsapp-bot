@@ -1,0 +1,30 @@
+# Ignore node modules
+node_modules/
+
+# Ignore session data (contains authentication info)
+session/
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Ignore logs
+*.log
+npm-debug.log*
+logs/
+
+# Ignore environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files
+test/
+*.test.js
