@@ -1,6 +1,6 @@
 module.exports = {
     // Default delay between messages in seconds
-    DEFAULT_DELAY_SECONDS: 5,
+    DEFAULT_DELAY_SECONDS: 25,
     
     // Session configuration
     SESSION_PATH: './session',

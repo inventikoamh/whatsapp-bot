@@ -9,7 +9,8 @@
     "example": "node example.js",
     "advanced": "node advancedExample.js",
     "demo": "node demo.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "csv": "node csvSender.js"
   },
   "keywords": [
     "whatsapp",

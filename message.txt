@@ -1,0 +1,13 @@
+Hello <name>! 👋
+
+We hope this message finds you well.
+
+This is a personalized message sent through our automated WhatsApp system.
+
+Thank you for being part of our community!
+
+Best regards,
+The Team
+
+---
+Powered by Inventiko
