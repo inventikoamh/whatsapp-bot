@@ -30,7 +30,7 @@ async function runDemo() {
 
     // Uncomment the demo you want to run:
 
-    // await demo1_SimpleMessage();
+    await demo1_SimpleMessage();
     // await demo2_PersonalizedMessages();
     // await demo3_ProgressTracking();
     // await demo4_TimeEstimation();
