@@ -8,9 +8,9 @@ const utils = require('./utils');
 
 // Sample data
 const sampleRecipients = [
-    { number: '9876543210', name: 'Alice', company: 'Tech Corp' },
-    { number: '9123456789', name: 'Bob', company: 'Design Co' },
-    { number: '9555555555', name: 'Charlie', company: 'Marketing Inc' }
+    { number: '6232705352', name: 'Alice', company: 'Tech Corp' },
+    { number: '7000128841', name: 'Bob', company: 'Design Co' },
+    { number: '7000642414', name: 'Charlie', company: 'Marketing Inc' }
 ];
 
 async function runDemo() {
@@ -48,11 +48,11 @@ async function demo1_SimpleMessage() {
 
     const message = `Hello! 👋
 
-This is a test message from the WhatsApp Bulk Sender Bot.
+This is a test message.
 
 Have a great day!`;
 
-    const results = await sendBulkMessages(sampleRecipients, message, 5);
+    const results = await sendBulkMessages(sampleRecipients, message, 10);
 
     // Save results to log
     utils.saveResultsToLog(results);
